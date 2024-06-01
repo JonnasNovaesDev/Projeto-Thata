@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/brownieOne"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <ImageView
+        android:id="@+id/backGroundTwo"
+        android:layout_width="441dp"
+        android:layout_height="922dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.516"
+        app:srcCompat="@drawable/backgroundfour"
+        tools:ignore="MissingConstraints,ImageContrastCheck,VisualLintBounds" />
+
+    <ImageView
+        android:id="@+id/imageConterCopo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="148dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCopo"
+        app:layout_constraintTop_toBottomOf="@+id/imageConterBrownie"
+        app:srcCompat="@drawable/slot"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageConterBrownie"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.277"
+        app:layout_constraintStart_toEndOf="@+id/imageViewBrownie"
+        app:srcCompat="@drawable/slot"
+        tools:ignore="MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <ImageView
+        android:id="@+id/imageConterPizza"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="144dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.277"
+        app:layout_constraintStart_toEndOf="@+id/imageViewPizza"
+        app:layout_constraintTop_toBottomOf="@+id/imageConterCopo"
+        app:srcCompat="@drawable/slot"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonback"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#00FFFFFF"
+        android:importantForAccessibility="no"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/buttonback"
+        tools:ignore="MissingConstraints,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonCompra"
+        android:layout_width="293dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#00FFFFFF"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/buttonfinalizar"
+        tools:ignore="MissingConstraints,VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textViewContBrownie"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="@string/_0"
+        android:textAlignment="center"
+        android:textColor="#663324"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageConterBrownie"
+        app:layout_constraintEnd_toEndOf="@+id/imageConterBrownie"
+        app:layout_constraintStart_toStartOf="@+id/imageConterBrownie"
+        app:layout_constraintTop_toTopOf="@+id/imageConterBrownie"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textViewContCopo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="@string/_0"
+        android:textAlignment="center"
+        android:textColor="#663324"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageConterCopo"
+        app:layout_constraintEnd_toEndOf="@+id/imageConterCopo"
+        app:layout_constraintStart_toStartOf="@+id/imageConterCopo"
+        app:layout_constraintTop_toTopOf="@+id/imageConterCopo"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textViewContPizza"
+        android:layout_width="45dp"
+        android:layout_height="37dp"
+        android:text="@string/_0"
+        android:textAlignment="center"
+        android:textColor="#663324"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageConterPizza"
+        app:layout_constraintEnd_toEndOf="@+id/imageConterPizza"
+        app:layout_constraintStart_toStartOf="@+id/imageConterPizza"
+        app:layout_constraintTop_toTopOf="@+id/imageConterPizza"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/backgroundconter"
+        android:layout_width="204dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="68dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backgroundcont"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/conterview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_0000"
+        android:textAlignment="center"
+        android:textColor="#663324"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundconter"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundconter"
+        app:layout_constraintStart_toStartOf="@+id/backgroundconter"
+        app:layout_constraintTop_toTopOf="@+id/backgroundconter" />
+
+    <TextView
+        android:id="@+id/finalizadortext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finalizar"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonCompra"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonCompra"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonCompra"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonCompra"
+        tools:ignore="HardcodedText,VisualLintOverlap" />
+
+    <ImageView
+        android:id="@+id/imageViewBrownie"
+        android:layout_width="182dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="24dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backgroundconter"
+        app:srcCompat="@drawable/browniebuttontwo" />
+
+    <ImageView
+        android:id="@+id/imageViewCopo"
+        android:layout_width="184dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="24dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewBrownie"
+        app:srcCompat="@drawable/copobuttontwo" />
+
+    <ImageView
+        android:id="@+id/imageViewPizza"
+        android:layout_width="184dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="24dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCopo"
+        app:srcCompat="@drawable/pizzabuttontwo" />
+
+    <ImageButton
+        android:id="@+id/negativeButtonBrownie"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#00FFFFFF"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewBrownie"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/positiveButtonBrownie"
+        app:srcCompat="@drawable/negativebutton"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/positiveButtonBrownie"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="188dp"
+        android:backgroundTint="#00FFFFFF"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewBrownie"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/positivebutton"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/positiveButtonPizza"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#00FFFFFF"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewPizza"
+        app:layout_constraintHorizontal_bias="0.792"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/positivebutton"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/negativeButtonPizza"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#00FFFFFF"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewPizza"
+        app:layout_constraintHorizontal_bias="0.792"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/positiveButtonPizza"
+        app:srcCompat="@drawable/negativebutton"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/positiveButtonCopo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="392dp"
+        android:backgroundTint="#00FFFFFF"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewCopo"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/positivebutton"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/negativeButtonCopo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#00FFFFFF"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewCopo"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/positiveButtonCopo"
+        app:srcCompat="@drawable/negativebutton"
+        tools:ignore="ImageContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

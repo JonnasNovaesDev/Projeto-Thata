@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AppBrownieThata</string>
+    <string name="Brownie">Button</string>
+    <string name="brownie">Brownie</string>
+    <string name="finances">Finances</string>
+    <string name="compra">Compra</string>
+    <string name="_0">0</string>
+    <string name="__0">0</string>
+    <string name="_0000">0000</string>
+    <string name="gasto">Gasto</string>
+    <string name="total">Total</string>
+    <string name="lucro">Lucro</string>
+</resources>
